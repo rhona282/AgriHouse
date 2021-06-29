@@ -1,0 +1,98 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    package="ucucite.edu.agrihouse">
+
+    <application
+        android:allowBackup="true"
+        android:icon="@drawable/agrilogo"
+        android:label="@string/app_name"
+        android:roundIcon="@drawable/agrilogo"
+        android:supportsRtl="true"
+        android:theme="@style/Theme.AgriHouse">
+        <activity android:name=".Developers"
+            android:parentActivityName=".AgriHouseList">
+        </activity>
+        <activity
+            android:name=".watermelon"
+            android:parentActivityName=".AgriHouseList" />
+        <activity
+            android:name=".upo"
+            android:parentActivityName=".AgriHouseList" />
+        <activity
+            android:name=".sitaw"
+            android:parentActivityName=".AgriHouseList" />
+        <activity
+            android:name=".sigarilyas"
+            android:parentActivityName=".AgriHouseList" />
+        <activity
+            android:name=".rice"
+            android:parentActivityName=".AgriHouseList" />
+        <activity
+            android:name=".patola"
+            android:parentActivityName=".AgriHouseList" />
+        <activity
+            android:name=".papaya"
+            android:parentActivityName=".AgriHouseList" />
+        <activity
+            android:name=".onion"
+            android:parentActivityName=".AgriHouseList" />
+        <activity
+            android:name=".mustasa"
+            android:parentActivityName=".AgriHouseList" />
+        <activity
+            android:name=".manggo"
+            android:parentActivityName=".AgriHouseList" />
+        <activity
+            android:name=".lettuce"
+            android:parentActivityName=".AgriHouseList" />
+        <activity
+            android:name=".kangkong"
+            android:parentActivityName=".AgriHouseList" />
+        <activity
+            android:name=".ginger"
+            android:parentActivityName=".AgriHouseList" />
+        <activity
+            android:name=".eggplant"
+            android:parentActivityName=".AgriHouseList" />
+        <activity
+            android:name=".corn"
+            android:parentActivityName=".AgriHouseList" />
+        <activity
+            android:name=".cocumber"
+            android:parentActivityName=".AgriHouseList" />
+        <activity
+            android:name=".celery"
+            android:parentActivityName=".AgriHouseList" />
+        <activity
+            android:name=".carrots"
+            android:parentActivityName=".AgriHouseList" />
+        <activity
+            android:name=".calamansi"
+            android:parentActivityName=".AgriHouseList" />
+        <activity
+            android:name=".cabbage"
+            android:parentActivityName=".AgriHouseList" />
+        <activity
+            android:name=".banana"
+            android:parentActivityName=".AgriHouseList" />
+        <activity
+            android:name=".ampalaya"
+            android:parentActivityName=".AgriHouseList" />
+        <activity
+            android:name=".alugbati"
+            android:parentActivityName=".AgriHouseList" />
+        <activity
+            android:name=".SeedSplashScreen"
+            android:theme="@style/Theme.AppCompat.Light.NoActionBar">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+        <activity android:name=".AgriHouseList"
+            android:parentActivityName=".MainActivity"/>
+        <activity android:name=".MainActivity" />
+    </application>
+
+</manifest>
